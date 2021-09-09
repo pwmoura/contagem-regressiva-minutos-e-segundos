@@ -1,0 +1,42 @@
+*, *:after, *:before{
+    box-sizing: border-box;
+} 
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+html, body{
+    height: 100%;
+}
+body{
+    font-size: 100%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #858585;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1faf8;
+}
+a, p, h1, h2, h3, h4, h5, h6{
+    font-style: none;
+    font-weight: normal;
+    font-variant: normal;
+}
+#slt-contagem-regressiva{
+    display: block;
+    margin: auto;
+    width: 70%;
+    height: 70%;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #858585;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10em;
+}
